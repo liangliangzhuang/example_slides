@@ -33,7 +33,7 @@ knitr::opts_chunk$set(tidy = FALSE, echo = FALSE)
 
 --
 
-- This is a [link]("http://tumblr.tastefullyoffensive.com/post/171451780306/squirrel-eats-doughnut#.WpmF52aZOSM") (it me!)
+- This is a [link](http://tumblr.tastefullyoffensive.com/post/171451780306/squirrel-eats-doughnut#.WpmF52aZOSM) (it me!)
 
 ---
 
