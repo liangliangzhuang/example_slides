@@ -4,7 +4,7 @@ h1, h2, h3 - font colors for the different headers; removed text shadow
 
 h1, h2, h3 {
   font-weight: normal;
-  color: #eb6d13;
+  color: #6699CC;
   text-shadow: none;
 }
 
@@ -13,7 +13,7 @@ for any links
 */
 
 a, a > code {
-  color: #eb6d13;
+  color: #6699CC;
 }
 
 /*

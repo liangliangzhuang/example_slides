@@ -1,7 +1,7 @@
 ---
-title: "Title Goes Here"
-author: "Ariel C. Zane<br/>More lines here"
-date: "March 2, 2018"
+title: "2020年度研究生年终汇报"
+author: "庄亮亮<br/>WZU"
+date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     css: ["default", "new-color.css", "default-fonts.css"]
@@ -17,46 +17,64 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(tidy = FALSE, echo = FALSE)
 ```
 
-# This is the first slide!
+# 前沿学习情况
+
+**暑期课程**
+
+- 复旦大学2020年“数据科学的应用和创新”研究生暑期学校
+- 上海市统计学暑期课程
+- 第三届统计科学与大数据国际论坛暨统计学短课
 
 --
 
-- You can have elements appear in succession, versus all at once
+**有关会议**
+
+- PHM会议
+- 青年统计学家论坛｜第七期学术报告
+- 第四届统计与运筹青年学者及研究生学术论坛（客观贝叶斯在可靠性的应用）
+- 狗熊会（王汉生、闫军、王兆军）
 
 --
 
-- Like this
+**书籍**
 
---
-
-- And this
-
---
-
-- This is a [link](http://tumblr.tastefullyoffensive.com/post/171451780306/squirrel-eats-doughnut#.WpmF52aZOSM) (it me!)
+- 《Bayesian Filtering and Smoothing》
+- 《Bayesian	Regression	Modeling	with	INLA》		
+- 《Bayesian	Inference	with	INLA》
 
 ---
 
-# Here we have a table<sup>*</sup>
+# 计划执行情况
 
-## and a smaller header
+--
 
-### and a smaller header
-```{r, message = FALSE}
-library(tidyverse); library(kableExtra)
-```
+**执行情况：**
 
-```{r}
-test_set <-
-  mtcars %>%
-select(mpg, cyl, disp, hp, drat, wt)
+1. 论文修改 
+2. Feducial inference/ 加速寿命试验理论学习
 
-knitr::kable(head(test_set), format = 'html') %>%
-kable_styling(full_width = F, font_size = 8)
-```
-.footnote[
-[*]I like a tinier font for footnotes - set this in default-fonts.css
-]
+--
+
+**存在问题：**
+
+1. 听完会议后，很难“变现”
+2. 理论基础较差，好高骛远
+3. 论文看的比较少
+
+---
+# 完成/发表论文情况
+
+- Product Reliability Analysis Based on Heavily Censored Interval Data with Batch Effects (Reliability Engineering and System Safety, minor revision, IF:5.04)
+
+- Progressive‐stress accelerated life tests with blocking and subsamlping（在写）
+
+---
+
+# 参与项目团队贡献
+---
+
+# 未来计划
+
 
 ---
 class: center
@@ -65,14 +83,7 @@ class: center
 ## and a smaller header
 
 ### and a smaller header
-```{r}
-test_set <-
-  mtcars %>%
-select(mpg, cyl, disp, hp, drat, wt)
 
-knitr::kable(head(test_set), format = 'html') %>%
-kable_styling(full_width = F, font_size = 8)
-```
 .footnote[
 [*]I like a tinier font for footnotes - set this in default-fonts.css
 ]
